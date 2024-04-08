@@ -1,7 +1,9 @@
 # AirBnB clone - Web framework
+![image](https://github.com/savvyh/holbertonschool-AirBnB_clone_v2/assets/139894873/df449852-06a0-4ffb-8da5-ca3505fe4dfa)
 
 # General :bell_pepper:
 This project will cover understanding what a Web Framework is, learning how to build a web framework using Flask, defining routes in Flask, understanding the concept of routes, handling variables within routes, understanding templates, creating an HTML response in Flask using a template, creating dynamic templates with loops and conditions, and displaying data from a MySQL database in HTML.
+![image](https://github.com/savvyh/holbertonschool-AirBnB_clone_v2/assets/139894873/cffa85f8-5f68-432b-9f0b-017fd32c7bca)
 
 ## Requirements 👍
 Python Script :
