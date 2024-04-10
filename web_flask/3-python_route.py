@@ -39,7 +39,7 @@ def c_text(text):
 def python_text(text='is cool'):
     """Display 'Python + text repplace or Python + 'is cool'"""
     new_text = text.replace('_', ' ')
-    return 'Python' + new_text
+    return 'Python ' + new_text
 
 
 if __name__ == '__main__':
