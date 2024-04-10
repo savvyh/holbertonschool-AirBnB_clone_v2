@@ -7,7 +7,7 @@ Functions:
     app.route '/python/<text>'
     app.route '/python'
     app.route '/number/<int:n>'
-    app.route '/number_template/int:<n>'
+    app.route '/number_template/<int:n>'
 Returns:
     text
 """
@@ -50,7 +50,7 @@ def n_is_integer(n):
     return '{} is a number'.format(n)
 
 
-@app.route('/number_template/int:<n>', strict_slashes=False)
+@app.route('/number_template/<int:n>', strict_slashes=False)
 def n_template(n):
     """Display render_template"""
     return render_template('5-number.html', n=n)
