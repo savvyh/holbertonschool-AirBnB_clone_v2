@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Functions:
-    app.route '/states_id'
+    app.route '/states/<id>'
     app.route '/states'
 Returns:
     text
@@ -15,8 +15,8 @@ app = Flask(__name__)
 
 
 @app.route('/states', strict_slashes=False)
-@app.route('/states/<state_id>', strict_slashes=False)
-def states():
+@app.route('/states/<id>', strict_slashes=False)
+def states_id(state_id=None):
     """Display a sorted list in alphabetical with all cities in a states"""
     states = storage.all(State).values()
     if state_id is not None:
